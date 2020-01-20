@@ -561,7 +561,6 @@
                     <!-- <div class="panel-heading">
                         <h3 class="panel-title">Add &amp; Remove Rows</h3>
                     </div> -->
-                
                     <!-- Foo Table - Add & Remove Rows -->
                     <!--===================================================-->
                     <div class="panel-body">
@@ -572,7 +571,7 @@
                                     <td>
                                         {foreach name="data" item="v"}
                                             {$v['title']}
-                                            <input class="xb-icheck" type="radio" name="group_ids[]" value="{$v['id']}">
+                                            <input class="xb-icheck" type="checkbox" name="group_ids[]" value="{$v['id']}">
                                             &emsp;
                                         {/foreach}
                                     </td>
